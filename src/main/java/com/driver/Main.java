@@ -10,7 +10,7 @@ public class Main {
         System.out.println(a);
     }
     public static class Product{
-        Product(){
+       public  Product(){
 
         }
         public int product(int x,int y){
