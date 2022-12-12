@@ -6,11 +6,11 @@ public class Main {
             Product p = new Product();
         System.out.println(p.product(1,2));
         System.out.println(p.product(1,2,3));
-        double a = p.product(2,3);
+        double a = p.product(1.0,3);
         System.out.println(a);
     }
     public static class Product{
-       public  Product(){
+       public void Product(){
 
         }
         public int product(int x,int y){
